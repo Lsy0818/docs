@@ -1,7 +1,10 @@
 # Table of contents
 
-* [What is Rocky](README.md)
+## Overview
+
+* [What is Rocky?](README.md)
 * [Roadmap](roadmap.md)
+* [Smart Contracts](overview/smart-contracts.md)
 
 ## Getting Started
 

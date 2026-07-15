@@ -1,4 +1,4 @@
-# What is Rocky
+# What is Rocky?
 
 Rocky is the **trading and liquidity layer for Canton** — starting with a **privacy-preserving perpetuals exchange**, and expanding into RWA liquidity, price discovery, and cross-chain capital routing.
 
