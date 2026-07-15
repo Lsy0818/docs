@@ -2,15 +2,28 @@
 
 Rocky is the **trading and liquidity layer for Canton** — starting with a **privacy-preserving perpetuals exchange**, and expanding into RWA liquidity, price discovery, and cross-chain capital routing.
 
-Rocky is not just another perp DEX. Perpetuals are the entry point: the fastest path to liquidity and activity, and the most mature trading infrastructure to bring real-world assets on-chain.
+Perpetuals are the entry point: the fastest path to liquidity and activity, and the most mature infrastructure to bring real-world assets on-chain. You trade crypto and tokenized RWAs with leverage, from a self-custodial wallet — and your positions stay private.
 
-## What Rocky offers
+## Why Rocky
 
-* **Private perpetuals** — trade crypto and tokenized real-world assets with leverage; your positions stay confidential.
-* **Self-custody** — you hold your keys; the exchange never takes custody.
+* **Nobody sees your book.** Positions, balances, and liquidation levels are private by default.
+* **Solvency stays provable.** Privacy for users, transparency for the protocol.
+* **Real assets, one venue.** Crypto and tokenized real-world assets, side by side.
+* **Self-custodial.** You hold your keys; every action needs your signature.
 
-## Learn more
+Under the hood, Rocky pairs **CEX-level execution** — a high-performance matching engine, an order book with market-maker API access, and a real-time risk & liquidation engine — with **Canton-native settlement**: DAML contracts for margin and positions, and atomic, private settlement for every trade.
 
-* [Why Rocky](overview/why-rocky.md) — what makes Rocky different, and how it works.
-* [Why Canton](overview/why-canton.md) — why we built on Canton.
-* [Explore Rocky](overview/explore-rocky.md) — where to go next.
+## Why Canton
+
+Most perp DEXs are built on transparent public chains, where transparency becomes a vulnerability for large capital and institutions. Canton delivers institutional-grade privacy and settlement:
+
+* **Privacy-preserving interoperability** — transact privately while staying interoperable across regulated assets and networks.
+* **Institutional-grade rails** — architecture and onboarding standards trusted by banks, custodians, and asset managers.
+* **DAML + atomic settlement** — complex financial logic with reduced counterparty and settlement risk.
+
+## Explore Rocky
+
+* [Get started](getting-started/rocky-wallet.md) — set up your Rocky Wallet, deposit, and make your first trade.
+* [Perpetuals](trading/overview.md) — fees, order types, margin, liquidations, and contract specs.
+* [Privacy](privacy.md) — how Rocky keeps your positions confidential.
+* [Roadmap](roadmap.md) — where Rocky is headed.
