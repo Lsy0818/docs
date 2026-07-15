@@ -3,6 +3,9 @@
 ## Overview
 
 * [What is Rocky?](README.md)
+  * [Why Rocky](overview/why-rocky.md)
+  * [Why Canton](overview/why-canton.md)
+  * [Explore Rocky](overview/explore-rocky.md)
 * [Roadmap](roadmap.md)
 * [Smart Contracts](overview/smart-contracts.md)
 
