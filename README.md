@@ -23,7 +23,7 @@ Most perp DEXs are built on transparent public chains, where transparency become
 
 ## Explore Rocky
 
-* [Get started](getting-started/rocky-wallet.md) — set up your Rocky Wallet, deposit, and make your first trade.
-* [Perpetuals](trading/overview.md) — fees, order types, margin, liquidations, and contract specs.
-* [Privacy](privacy.md) — how Rocky keeps your positions confidential.
-* [Roadmap](roadmap.md) — where Rocky is headed.
+Rocky offers two ways to trade:
+
+* **Perpetuals** — trade crypto and tokenized real-world assets with leverage; your positions stay private. [Learn more →](trading/overview.md)
+* **Spot** — buy and sell assets directly on Canton.
