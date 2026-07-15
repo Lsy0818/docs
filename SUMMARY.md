@@ -4,7 +4,6 @@
 
 * [What is Rocky?](README.md)
 * [Roadmap](roadmap.md)
-* [Smart Contracts](overview/smart-contracts.md)
 
 ## Getting Started
 
