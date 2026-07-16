@@ -3,28 +3,32 @@
 ## Overview
 
 * [What is Rocky?](README.md)
+* [Product Architecture](architecture.md)
 * [Roadmap](roadmap.md)
 
 ## Getting Started
 
-* [Rocky Wallet](getting-started/rocky-wallet.md)
-* [Deposit & Withdraw](getting-started/deposit-and-withdraw.md)
-* [Your First Trade](getting-started/your-first-trade.md)
+* [Getting Started](getting-started/getting-started.md)
+* [Funding & Wallet Operations](getting-started/wallet-operations.md)
 
-## Perpetuals
+## Trading
 
-* [Overview](trading/overview.md)
-* [Fees](trading/fees.md)
-* [Order Types](trading/order-types.md)
-* [Margin & Liquidations](trading/margin-and-liquidations.md)
-* [Funding & Mark Price](trading/funding-and-mark-price.md)
-* [Contract Specifications](trading/contract-specifications.md)
+* [Live Markets](trading/live-markets.md)
+* [Your First Perpetual Trade](trading/first-perpetual-trade.md)
+* [Spot Trading](trading/spot-trading.md)
+* [Trading Concepts](trading/trading-concepts.md)
+* [Fees & Market Specifications](trading/fees-and-specs.md)
 
 ## Privacy
 
-* [Privacy Model](privacy.md)
+* [Privacy on Rocky](privacy.md)
 
 ## Trust & Legal
 
 * [Security](security.md)
+* [Risk Disclosure](risk-disclosure.md)
 * [Compliance & Legal](compliance.md)
+
+## Resources
+
+* [Quick Links](quick-links.md)

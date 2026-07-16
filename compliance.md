@@ -1,17 +1,13 @@
 # Compliance & Legal
 
-Rocky supports **real-funds** trading — you trade your own capital and bear your own profit and loss.
+- Rocky may restrict access in certain jurisdictions.
+- Identity or eligibility verification may be required for certain products or markets.
+- Users are responsible for complying with applicable laws and tax obligations.
+- Users remain responsible for the security and use of their connected wallets.
+- Product availability may differ by user, wallet, jurisdiction, or asset.
 
-{% hint style="warning" %}
-**Real trading involves real risk.** Perpetual trading with leverage can result in the loss of your entire margin. Nothing in this documentation is financial advice or a promise of return.
-{% endhint %}
+Official legal documents should be linked here when available:
 
-## Key points
-
-* **Eligibility & regions** — Rocky is not available in restricted jurisdictions. Access may require identity verification where applicable.
-* **Self-custody** — you are responsible for the security of your wallet and keys.
-* **No guarantees** — markets are volatile; past performance does not indicate future results.
-
-* **Terms of Service** — _link._
-* **Privacy Policy** — _link._
-* **Risk Disclosure** — _link._
+- **Terms of Service** - _link to be added_
+- **Privacy Policy** - _link to be added_
+- **Risk Disclosure** - _link to be added_

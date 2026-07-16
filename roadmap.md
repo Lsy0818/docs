@@ -1,33 +1,77 @@
 # Roadmap
 
-Rocky's phased path — from private perps to Canton's unified liquidity layer. Timelines are **indicative**; for a real-funds venue, correctness comes before speed.
+Rocky's roadmap is a direction of travel, not a promise that every product will launch on a fixed date. Features remain subject to development, testing, partner readiness, liquidity, legal review, and market conditions.
 
-## Phase 1 — Private Perps + Wallet _(now)_
+## Stage 1 - Trading and capital access
 
-Launch trading and capital entry points.
+The current foundation includes:
 
-* **Privacy-preserving perpetuals** — order-book trading, market-maker API, risk & liquidation, Canton-native settlement.
-* **Rocky Wallet** — self-custodial capital entry point.
-* **Market maker onboarding.**
-* **Canton ecosystem activity** — every trade, settlement, and margin event drives Canton usage.
+- Privacy-enabled perpetual markets
+- Canton-native spot markets
+- Rocky Wallet, Loop Wallet, and Console Wallet access
+- Order-book execution and risk management
+- Canton-native asset and settlement workflows
+- Market-maker and liquidity-provider onboarding
 
-## Phase 2 — RWA Liquidity
+## Stage 2 - Stablecoin expansion
 
-Extend privacy-preserving infrastructure to institutional assets.
+Rocky plans to integrate additional stablecoin assets over time.
 
-* **RWA OTC** with private RFQ (request-for-quote) workflows.
-* **Block trades** — large size without market impact or information leakage.
-* **Collateral & settlement workflows** for tokenized real-world assets.
+The goal is to:
 
-## Phase 3 — Unified Liquidity Layer
+- Give users more options for settlement and capital entry.
+- Improve liquidity across Rocky markets.
+- Support additional quote, collateral, and payment workflows where appropriate.
+- Connect stablecoin partners with active trading and liquidity use cases on Canton.
 
-Become price and liquidity infrastructure for all of Canton.
+The specific role of each stablecoin will depend on technical integration, available liquidity, risk assessment, and partner coordination.
 
-* **Oracles & price discovery** — perp data, funding, basis, and OTC reference prices.
-* **CCTP cross-chain liquidity** — route external stablecoin capital into Canton.
-* **AI strategies** — funding-rate arbitrage, yield optimization, automated hedging.
-* **24/7 price discovery** across Canton assets.
+## Stage 3 - RWA liquidity
 
-{% hint style="info" %}
-These phases compound into a **liquidity flywheel**: capital flows into privacy-preserving perp trading, which generates fees, data, and Canton activity — attracting more liquidity over time.
-{% endhint %}
+Rocky plans to develop dedicated infrastructure for tokenized real-world assets.
+
+Potential areas include:
+
+- **RWA spot and secondary-market liquidity**
+- **Private RFQ workflows**
+- **OTC and block-trade execution**
+- **Collateral and settlement workflows**
+- **Hedging and price-discovery tools**
+- **Institutional liquidity programs**
+
+Not every RWA is suited to a public order book. Rocky expects to support different execution models according to asset structure, liquidity, investor eligibility, and regulatory requirements.
+
+## Stage 4 - Wealth and capital-management products
+
+Rocky also plans to introduce products that help users manage stable assets and other eligible capital within the Canton ecosystem.
+
+Potential areas include:
+
+- Stable-asset strategies
+- Trading-fee and market-making strategies
+- Funding-rate and basis strategies
+- Structured or fixed-term products
+- Automated allocation and risk-management tools
+
+These products may involve material financial, smart-contract, liquidity, counterparty, and market risk. Any future product will require its own specifications, risk disclosures, eligibility rules, and return methodology.
+
+> **No guaranteed return**
+>
+> Any target, estimate, or historical yield is illustrative and does not guarantee future performance.
+
+## Stage 5 - Unified liquidity layer
+
+Over the longer term, Rocky plans to connect its markets, assets, and data into broader Canton infrastructure.
+
+Potential capabilities include:
+
+- 24/7 price discovery
+- Market and funding-rate data
+- RWA reference prices
+- Canton-native oracle services
+- Cross-chain stablecoin and capital routing
+- Automated hedging and allocation strategies
+
+This is the progression behind Rocky's positioning:
+
+> **The Trading and Liquidity Layer for Canton**

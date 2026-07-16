@@ -1,27 +1,40 @@
 # What is Rocky?
 
-Rocky is the **trading and liquidity layer for Canton** — starting with a **privacy-preserving perpetuals exchange**, and expanding into RWA liquidity, price discovery, and cross-chain capital routing.
+> **Documentation status**
+>
+> This document reflects the product and public markets available as of **July 16, 2026**. Markets, leverage limits, fees, collateral assets, and product availability may change. The [Rocky trading application](https://app.rocky.exchange/trade) is the source of truth for live information.
 
-Perpetuals are the entry point: the fastest path to liquidity and activity, and the most mature infrastructure to bring real-world assets on-chain. You trade crypto and tokenized RWAs with leverage, from a self-custodial wallet — and your positions stay private.
+Rocky is the **trading and liquidity layer for Canton**.
+
+The initial product combines:
+
+- **Privacy-enabled perpetual markets** for leveraged long and short exposure.
+- **Canton-native spot markets** for direct asset exchange.
+- **Multi-wallet access** through Rocky Wallet, Loop Wallet, and Console Wallet.
+- **Canton-native settlement workflows** designed around selective visibility and atomic execution.
+
+Perpetuals and spot trading are the starting point, not the final destination. Rocky's long-term objective is to connect trading, stablecoin liquidity, tokenized real-world assets, and capital-management products through a unified liquidity layer on Canton.
 
 ## Why Rocky
 
-* **Nobody sees your book.** Positions, balances, and liquidation levels are private by default.
-* **Solvency stays provable.** Privacy for users, transparency for the protocol.
-* **Real assets, one venue.** Crypto and tokenized real-world assets, side by side.
-* **Self-custodial.** You hold your keys; every action needs your signature.
+Most on-chain trading venues operate on globally transparent networks. That model can expose account activity, liquidation risk, large trading intentions, and institutional workflows to the entire network.
 
-This is only possible because Rocky is built on **Canton**. Most perp DEXs run on transparent public chains, where transparency becomes a vulnerability for large capital and institutions. Canton delivers institutional-grade privacy and settlement:
+Canton uses a different architecture. Its selective-visibility model allows information to be shared with the parties that need it without broadcasting every transaction detail globally. This gives Rocky a foundation for building markets that combine:
 
-* **Privacy-preserving interoperability** — transact privately while staying interoperable across regulated assets and networks.
-* **Institutional-grade rails** — architecture and onboarding standards trusted by banks, custodians, and asset managers.
-* **DAML + atomic settlement** — complex financial logic with reduced counterparty and settlement risk.
+- **Privacy-aware settlement** - account and settlement data do not need to be visible to every network participant.
+- **Institutional-grade workflows** - Canton is designed for regulated assets and multi-party financial applications.
+- **Atomic execution** - linked actions can settle together, reducing settlement and counterparty risk.
+- **Self-custodial access** - users connect through supported wallets and approve actions through their chosen wallet.
+- **Interoperability across Canton** - assets and applications can participate in coordinated workflows while preserving appropriate visibility.
 
-Under the hood, Rocky pairs **CEX-level execution** — a high-performance matching engine, an order book with market-maker API access, and a real-time risk & liquidation engine — with **Canton-native settlement**: DAML contracts for margin and positions, and atomic, private settlement for every trade.
+## Rocky's role in the Canton ecosystem
 
-## Explore Rocky
+Rocky is not positioned as only another perpetual DEX. Its broader role is to help turn assets issued on Canton into assets that can be traded, priced, hedged, and deployed productively.
 
-Rocky offers two ways to trade:
+The long-term path is:
 
-* **Perpetuals** — trade crypto and tokenized real-world assets with leverage; your positions stay private. [Learn more →](trading/overview.md)
-* **Spot** — buy and sell assets directly on Canton.
+1. Establish active perpetual and spot markets.
+2. Expand stablecoin access and liquidity.
+3. Develop RWA trading and institutional execution workflows.
+4. Introduce capital-management and wealth products.
+5. Build price-discovery, data, and liquidity infrastructure for the wider Canton ecosystem.

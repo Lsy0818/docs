@@ -1,33 +1,27 @@
-# Privacy
+# Privacy on Rocky
 
-Rocky's core promise: **no one can see your positions** — while the protocol's solvency stays provable.
+Rocky's privacy model is built on Canton.
 
-## Transparency is a vulnerability at scale
+## Selective visibility
 
-Most perp DEXs run on transparent public chains, which can expose:
+Canton does not require every network participant to see every transaction. Participants receive the information they are entitled to see for a specific workflow.
 
-* Positions and liquidation levels
-* Order flow and trading patterns
-* Market maker behavior
-* Large trade intentions
-* OTC / RWA negotiation information
+For trading, this architecture can reduce the unnecessary exposure of:
 
-For retail, that's an uncomfortable trade-off. For **whales, market makers, and institutions, it's a structural problem** — stops get hunted, size gets front-run, and intentions leak before execution.
+- Account-level balances and settlement activity
+- Position and collateral workflows
+- Large transaction intentions
+- Institutional counterparties
+- RWA negotiation and settlement information
 
-## What's private vs. verifiable
+## Privacy does not mean invisibility
 
-| Private to you | Publicly verifiable |
-| --- | --- |
-| Positions & size | The protocol is fully collateralized |
-| Balances | Aggregate open interest |
-| Liquidation levels | Matching and settlement followed the rules |
+Privacy should not be interpreted as anonymity or the absence of controls.
 
-## Why it matters
+Depending on the market and workflow:
 
-* **No liquidation hunting** — your stops and liquidation levels aren't visible, so they can't be targeted.
-* **No front-running your intent** — build a position without telegraphing it to the market.
-* **Institutions can participate** — confidentiality is a requirement for serious capital, market makers, and RWA workflows.
+- Counterparties and relevant service providers may see information required to execute and settle a transaction.
+- Market-level information such as prices, order-book depth, volume, and aggregated activity may be visible.
+- Compliance, audit, or legal requirements may require information to be disclosed to authorized parties.
 
-{% hint style="info" %}
-Privacy for users, transparency for the protocol — you keep your edge, and the exchange still proves it's fully backed.
-{% endhint %}
+Rocky's objective is to avoid unnecessary global disclosure while preserving the information required for execution, settlement, risk management, and applicable compliance.
