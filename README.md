@@ -11,15 +11,13 @@ Perpetuals are the entry point: the fastest path to liquidity and activity, and 
 * **Real assets, one venue.** Crypto and tokenized real-world assets, side by side.
 * **Self-custodial.** You hold your keys; every action needs your signature.
 
-Under the hood, Rocky pairs **CEX-level execution** — a high-performance matching engine, an order book with market-maker API access, and a real-time risk & liquidation engine — with **Canton-native settlement**: DAML contracts for margin and positions, and atomic, private settlement for every trade.
-
-## Why Canton
-
-Most perp DEXs are built on transparent public chains, where transparency becomes a vulnerability for large capital and institutions. Canton delivers institutional-grade privacy and settlement:
+This is only possible because Rocky is built on **Canton**. Most perp DEXs run on transparent public chains, where transparency becomes a vulnerability for large capital and institutions. Canton delivers institutional-grade privacy and settlement:
 
 * **Privacy-preserving interoperability** — transact privately while staying interoperable across regulated assets and networks.
 * **Institutional-grade rails** — architecture and onboarding standards trusted by banks, custodians, and asset managers.
 * **DAML + atomic settlement** — complex financial logic with reduced counterparty and settlement risk.
+
+Under the hood, Rocky pairs **CEX-level execution** — a high-performance matching engine, an order book with market-maker API access, and a real-time risk & liquidation engine — with **Canton-native settlement**: DAML contracts for margin and positions, and atomic, private settlement for every trade.
 
 ## Explore Rocky
 
