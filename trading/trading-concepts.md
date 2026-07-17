@@ -15,16 +15,17 @@ Use leverage according to your own risk tolerance. The maximum permitted leverag
 
 ## Order types
 
-The order types available in Rocky are displayed in the order panel and may vary by product or market.
-
-Common order types include:
+### Perpetual orders
 
 - **Market order** - seeks immediate execution at the best available prices. The final execution price can differ from the price visible when the order is submitted.
-- **Limit order** - executes only at the specified price or better. Execution is not guaranteed.
-- **Conditional order** - activates after a defined trigger is reached, where supported.
-- **Take-profit / stop-loss** - helps automate an exit at a target or risk threshold, where supported.
+- **Limit order** - remains open until it is filled at the specified price or better, or until it is cancelled.
+- **Reduce-Only** - can be applied when an order should only reduce an existing position.
 
-Always rely on the live order panel for currently supported order types.
+### Spot orders
+
+- **Limit order** - buys or sells a spot asset only at the specified price or better. The required asset remains locked while the order is open.
+
+Order functionality may vary by market. Always rely on the order panel for the functions available for the selected product.
 
 ## Mark price
 

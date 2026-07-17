@@ -21,6 +21,8 @@ Maximum leverage is a market limit, not a recommendation. The leverage available
 
 Spot markets exchange one asset directly for another and do not use perpetual funding or leveraged position mechanics.
 
-> **Live-market notice**
->
-> Markets can be added, paused, or updated. Always check the [live trading interface](https://app.rocky.exchange/trade) for current availability and specifications.
+{% hint style="info" %}
+**Live-market notice**
+
+Markets can be added, paused, or updated. Always check the [live trading interface](https://app.rocky.exchange/trade) for current availability and specifications.
+{% endhint %}

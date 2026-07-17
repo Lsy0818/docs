@@ -9,7 +9,7 @@
 ## Getting Started
 
 * [Getting Started](getting-started/getting-started.md)
-* [Funding & Wallet Operations](getting-started/wallet-operations.md)
+* [Funding Your Rocky Trading Account](getting-started/funding.md)
 
 ## Trading
 
@@ -17,7 +17,7 @@
 * [Your First Perpetual Trade](trading/first-perpetual-trade.md)
 * [Spot Trading](trading/spot-trading.md)
 * [Trading Concepts](trading/trading-concepts.md)
-* [Fees & Market Specifications](trading/fees-and-specs.md)
+* [Fees and Market Specifications](trading/fees-and-specs.md)
 
 ## Privacy
 
@@ -27,8 +27,9 @@
 
 * [Security](security.md)
 * [Risk Disclosure](risk-disclosure.md)
-* [Compliance & Legal](compliance.md)
+* [Compliance and Legal](compliance.md)
 
 ## Resources
 
 * [Quick Links](quick-links.md)
+

@@ -1,4 +1,4 @@
-# Compliance & Legal
+# Compliance and Legal
 
 - Rocky may restrict access in certain jurisdictions.
 - Identity or eligibility verification may be required for certain products or markets.

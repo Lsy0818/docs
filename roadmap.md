@@ -6,11 +6,12 @@ Rocky's roadmap is a direction of travel, not a promise that every product will 
 
 The current foundation includes:
 
-* Privacy-enabled perpetual markets
-* Canton-native spot markets
-* Order-book execution and risk management
-* Canton-native asset and settlement workflows
-* Market-maker and liquidity-provider onboarding
+- Privacy-enabled perpetual markets
+- Canton-native spot markets
+- Rocky Wallet, Loop Wallet, and Console Wallet access
+- Order-book execution and risk management
+- Canton-native asset and settlement workflows
+- Market-maker and liquidity-provider onboarding
 
 ## Stage 2 - Stablecoin expansion
 
@@ -18,10 +19,10 @@ Rocky plans to integrate additional stablecoin assets over time.
 
 The goal is to:
 
-* Give users more options for settlement and capital entry.
-* Improve liquidity across Rocky markets.
-* Support additional quote, collateral, and payment workflows where appropriate.
-* Connect stablecoin partners with active trading and liquidity use cases on Canton.
+- Give users more options for settlement and capital entry.
+- Improve liquidity across Rocky markets.
+- Support additional quote, collateral, and payment workflows where appropriate.
+- Connect stablecoin partners with active trading and liquidity use cases on Canton.
 
 The specific role of each stablecoin will depend on technical integration, available liquidity, risk assessment, and partner coordination.
 
@@ -31,12 +32,12 @@ Rocky plans to develop dedicated infrastructure for tokenized real-world assets.
 
 Potential areas include:
 
-* **RWA spot and secondary-market liquidity**
-* **Private RFQ workflows**
-* **OTC and block-trade execution**
-* **Collateral and settlement workflows**
-* **Hedging and price-discovery tools**
-* **Institutional liquidity programs**
+- **RWA spot and secondary-market liquidity**
+- **Private RFQ workflows**
+- **OTC and block-trade execution**
+- **Collateral and settlement workflows**
+- **Hedging and price-discovery tools**
+- **Institutional liquidity programs**
 
 Not every RWA is suited to a public order book. Rocky expects to support different execution models according to asset structure, liquidity, investor eligibility, and regulatory requirements.
 
@@ -46,17 +47,19 @@ Rocky also plans to introduce products that help users manage stable assets and 
 
 Potential areas include:
 
-* Stable-asset strategies
-* Trading-fee and market-making strategies
-* Funding-rate and basis strategies
-* Structured or fixed-term products
-* Automated allocation and risk-management tools
+- Stable-asset strategies
+- Trading-fee and market-making strategies
+- Funding-rate and basis strategies
+- Structured or fixed-term products
+- Automated allocation and risk-management tools
 
 These products may involve material financial, smart-contract, liquidity, counterparty, and market risk. Any future product will require its own specifications, risk disclosures, eligibility rules, and return methodology.
 
-> **No guaranteed return**
->
-> Any target, estimate, or historical yield is illustrative and does not guarantee future performance.
+{% hint style="warning" %}
+**No guaranteed return**
+
+Any target, estimate, or historical yield is illustrative and does not guarantee future performance.
+{% endhint %}
 
 ## Stage 5 - Unified liquidity layer
 
@@ -64,12 +67,12 @@ Over the longer term, Rocky plans to connect its markets, assets, and data into 
 
 Potential capabilities include:
 
-* 24/7 price discovery
-* Market and funding-rate data
-* RWA reference prices
-* Canton-native oracle services
-* Cross-chain stablecoin and capital routing
-* Automated hedging and allocation strategies
+- 24/7 price discovery
+- Market and funding-rate data
+- RWA reference prices
+- Canton-native oracle services
+- Cross-chain stablecoin and capital routing
+- Automated hedging and allocation strategies
 
 This is the progression behind Rocky's positioning:
 
