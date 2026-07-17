@@ -6,10 +6,10 @@
 * [Product Architecture](architecture.md)
 * [Roadmap](roadmap.md)
 
-## Getting Started
+## Quick Start
 
-* [Getting Started](getting-started/getting-started.md)
-* [Funding Your Rocky Trading Account](getting-started/funding.md)
+* [Getting Started](quick-start/getting-started.md)
+* [Funding Your Rocky Trading Account](quick-start/funding.md)
 
 ## Trading
 
@@ -32,4 +32,3 @@
 ## Resources
 
 * [Quick Links](quick-links.md)
-
