@@ -1,8 +1,6 @@
 # What is Rocky?
 
-> **Documentation status**
->
-> This document reflects the product and public markets available as of **July 16, 2026**. Markets, leverage limits, fees, collateral assets, and product availability may change. The [Rocky trading application](https://app.rocky.exchange/trade) is the source of truth for live information.
+
 
 Rocky is the **trading and liquidity layer for Canton**.
 
