@@ -8,10 +8,9 @@ Rocky is the **trading and liquidity layer for Canton**.
 
 The initial product combines:
 
-- **Privacy-enabled perpetual markets** for leveraged long and short exposure.
-- **Canton-native spot markets** for direct asset exchange.
-- **Multi-wallet access** through Rocky Wallet, Loop Wallet, and Console Wallet.
-- **Canton-native settlement workflows** designed around selective visibility and atomic execution.
+* **Privacy-enabled perpetual markets** for leveraged long and short exposure.
+* **Canton-native spot markets** for direct asset exchange.
+* **Canton-native settlement workflows** designed around selective visibility and atomic execution.
 
 Perpetuals and spot trading are the starting point, not the final destination. Rocky's long-term objective is to connect trading, stablecoin liquidity, tokenized real-world assets, and capital-management products through a unified liquidity layer on Canton.
 
@@ -21,11 +20,11 @@ Most on-chain trading venues operate on globally transparent networks. That mode
 
 Canton uses a different architecture. Its selective-visibility model allows information to be shared with the parties that need it without broadcasting every transaction detail globally. This gives Rocky a foundation for building markets that combine:
 
-- **Privacy-aware settlement** - account and settlement data do not need to be visible to every network participant.
-- **Institutional-grade workflows** - Canton is designed for regulated assets and multi-party financial applications.
-- **Atomic execution** - linked actions can settle together, reducing settlement and counterparty risk.
-- **Self-custodial access** - users connect through supported wallets and approve actions through their chosen wallet.
-- **Interoperability across Canton** - assets and applications can participate in coordinated workflows while preserving appropriate visibility.
+* **Privacy-aware settlement** - account and settlement data do not need to be visible to every network participant.
+* **Institutional-grade workflows** - Canton is designed for regulated assets and multi-party financial applications.
+* **Atomic execution** - linked actions can settle together, reducing settlement and counterparty risk.
+* **Self-custodial access** - users connect through supported wallets and approve actions through their chosen wallet.
+* **Interoperability across Canton** - assets and applications can participate in coordinated workflows while preserving appropriate visibility.
 
 ## Rocky's role in the Canton ecosystem
 
