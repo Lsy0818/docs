@@ -4,20 +4,21 @@ Rocky currently supports both perpetual and spot markets.
 
 ## Perpetual markets
 
-| Market | Quote / Settlement Asset | Maximum Leverage |
-| --- | --- | --- |
-| BTC-PERP | USDC | Up to 100x |
-| ETH-PERP | USDC | Up to 100x |
-| CC-PERP | USDC | Up to 100x |
+| Market   | Quote / Settlement Asset | Maximum Leverage |
+| -------- | ------------------------ | ---------------- |
+| BTC-PERP | USDCx                    | Up to 100x       |
+| ETH-PERP | USDCx                    | Up to 100x       |
+| CC-PERP  | USDCx                    | Up to 100x       |
 
 Maximum leverage is a market limit, not a recommendation. The leverage available for an individual order may depend on market parameters, position size, liquidity, and risk controls.
 
 ## Spot markets
 
-| Market | Base Asset | Quote Asset |
-| --- | --- | --- |
-| cBTC/USDCx | cBTC | USDCx |
-| cETH/USDCx | cETH | USDCx |
+| Market     | Base Asset | Quote Asset |
+| ---------- | ---------- | ----------- |
+| cBTC/USDCx | cBTC       | USDCx       |
+| cETH/USDCx | cETH       | USDCx       |
+| CC/USDA    | CC         | USDA        |
 
 Spot markets exchange one asset directly for another and do not use perpetual funding or leveraged position mechanics.
 
