@@ -2,19 +2,26 @@
 
 Spot trading allows users to exchange supported Canton assets directly.
 
-## Place a spot order
+### Place a spot order
 
-1. Open the **Spot** section.
-2. Select an available market.
-3. Choose whether to buy or sell the base asset.
-4. Enter the price and amount using an available order type.
-5. Review the total amount and any fees shown in the application.
-6. Submit the order and approve the required wallet request.
-7. Confirm the completed transaction and updated wallet balances.
+1. Connect Rocky Wallet, Loop Wallet, or Console Wallet.
+2. Open the funding or deposit section in Rocky.
+3. Select a supported deposit asset and enter the amount you want to transfer to the platform.
+4. Review and approve the deposit through the connected wallet.
+5. Wait until the deposit is credited to your Rocky trading account and appears as available balance.
+6. Open the **Spot** section.
+7. Select an available market.
+8. Choose whether to buy or sell the base asset.
+9. Select an available order type and enter the price and amount.
+10. Review the order value, available balance, and any fees shown in the application.
+11. Submit the order.
+12. Confirm the fill and the updated asset balances in your Rocky trading account.
+
+Spot orders use the available asset balances in your Rocky trading account, not the remaining balances in your connected wallet. After an order is filled, the purchased or received asset is credited to your Rocky trading account. To move that asset back to a connected or external wallet, submit a withdrawal through Rocky.
 
 Unlike perpetual trading, a spot trade:
 
-- Exchanges the underlying assets directly.
-- Does not create a leveraged long or short position.
-- Does not have a liquidation price.
-- Does not incur periodic funding payments.
+* Exchanges the underlying assets directly.
+* Does not create a leveraged long or short position.
+* Does not have a liquidation price.
+* Does not incur periodic funding payments.
