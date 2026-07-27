@@ -4,13 +4,13 @@ Rocky is accessed through supported wallet connections, but perpetual and spot o
 
 The basic fund flow is:
 
-```text
+```
 Connected wallet → Rocky trading account → Perpetual margin or spot trading balance
 ```
 
 ## Deposit funds
 
-1. Connect Rocky Wallet, Loop Wallet, or Console Wallet.
+1. Connect Rocky Wallet, Loop Wallet, Console Wallet, or Send Wallet.
 2. Confirm that the selected wallet account is connected to Canton Mainnet.
 3. Open the deposit or funding section in Rocky.
 4. Select a supported deposit asset.
@@ -37,10 +37,10 @@ Deposits and withdrawals may involve irreversible on-chain transfers. An incorre
 
 ## If a deposit does not appear
 
-- Confirm that the transaction was submitted on Canton Mainnet.
-- Verify that the asset is currently supported for deposits.
-- Confirm that the deposit was sent through the funding workflow displayed in Rocky.
-- Check the transaction status in the connected wallet.
-- Refresh the Rocky application after the transaction has settled.
-- Use the transaction reference to check the status on an official Canton explorer where available.
-- Contact official Rocky support and provide the transaction reference if the deposit remains uncredited.
+* Confirm that the transaction was submitted on Canton Mainnet.
+* Verify that the asset is currently supported for deposits.
+* Confirm that the deposit was sent through the funding workflow displayed in Rocky.
+* Check the transaction status in the connected wallet.
+* Refresh the Rocky application after the transaction has settled.
+* Use the transaction reference to check the status on an official Canton explorer where available.
+* Contact official Rocky support and provide the transaction reference if the deposit remains uncredited.

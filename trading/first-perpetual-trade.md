@@ -4,7 +4,7 @@ Perpetual futures are leveraged contracts without an expiry date. They allow tra
 
 ## Open a position
 
-1. Connect Rocky Wallet, Loop Wallet, or Console Wallet.
+1. Connect Rocky Wallet, Loop Wallet, Console Wallet, or Send Wallet.
 2. Open the funding or deposit section in Rocky.
 3. Select a supported deposit asset and enter the amount you want to transfer to the platform.
 4. Review and approve the deposit through the connected wallet.
@@ -24,13 +24,13 @@ The margin required to open and maintain a perpetual position is deducted from t
 
 After a position is open, monitor:
 
-- Position size
-- Entry price
-- Mark price
-- Unrealized profit and loss
-- Margin usage
-- Liquidation price
-- Funding rate
+* Position size
+* Entry price
+* Mark price
+* Unrealized profit and loss
+* Margin usage
+* Liquidation price
+* Funding rate
 
 To exit, submit a closing order for all or part of the position. A position is not closed until the closing order is filled and the application reflects the updated position.
 
@@ -40,17 +40,17 @@ Rocky also provides **Close All** for users who want to submit closing instructi
 
 Rocky's perpetual interface includes:
 
-- **Market orders** - seek immediate execution at the best available prices.
-- **Limit orders** - execute only at the specified price or better.
-- **Long and short positions** - take directional exposure to rising or falling prices.
-- **Per-market leverage** - select leverage within the maximum allowed for the chosen market.
-- **Cross-margin account view** - available collateral supports the account's perpetual positions under the active cross-margin configuration.
-- **Reduce-Only** - restrict an order so that it can only reduce an existing position rather than increase exposure.
-- **Positions** - view size, entry price, mark price, liquidation price, unrealized profit or loss, funding, and margin information.
-- **Open Orders** - review and cancel unfilled orders.
-- **Order History** - review submitted and completed orders.
-- **Trade History** - review individual fills and execution records.
-- **Close / Close All** - close an individual position or submit closing instructions for all open positions.
+* **Market orders** - seek immediate execution at the best available prices.
+* **Limit orders** - execute only at the specified price or better.
+* **Long and short positions** - take directional exposure to rising or falling prices.
+* **Per-market leverage** - select leverage within the maximum allowed for the chosen market.
+* **Cross-margin account view** - available collateral supports the account's perpetual positions under the active cross-margin configuration.
+* **Reduce-Only** - restrict an order so that it can only reduce an existing position rather than increase exposure.
+* **Positions** - view size, entry price, mark price, liquidation price, unrealized profit or loss, funding, and margin information.
+* **Open Orders** - review and cancel unfilled orders.
+* **Order History** - review submitted and completed orders.
+* **Trade History** - review individual fills and execution records.
+* **Close / Close All** - close an individual position or submit closing instructions for all open positions.
 
 {% hint style="danger" %}
 **Risk warning**
