@@ -12,7 +12,7 @@ https://app.rocky.exchange
 
 ## Supported wallets
 
-Rocky currently supports three Canton wallet login methods:
+Rocky currently supports four Canton wallet login methods:
 
 | Wallet             | Access                              |
 | ------------------ | ----------------------------------- |
@@ -25,7 +25,7 @@ To connect:
 
 1. Open the Rocky application.
 2. Select **Connect Wallet**.
-3. Choose Rocky Wallet, Loop Wallet, or Console Wallet.
+3. Choose Rocky Wallet, Loop Wallet, Console Wallet, or Send Wallet.
 4. Confirm that the wallet is connected to **Canton Mainnet**.
 5. Review and approve the login request in the wallet.
 
